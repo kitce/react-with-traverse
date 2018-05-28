@@ -26,6 +26,7 @@ const withTraverse = require('react-with-traverse');
 #### transform(child : Any, props : Object) : Node
 
 `child` : Each of the deepest strings in the component tree (probably `<String>`, unless you do something like `<div>{<Number>}</div>`)
+
 `props`  : The props for the result component
 
 Use this function to transform `child` into anything you want by returning it.
