@@ -1,6 +1,6 @@
 {
   "name": "react-with-traverse",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "dist",
   "license": "MIT",
   "description": "Traverse through React Component Tree and Transform the Deepest Strings to Anything",
