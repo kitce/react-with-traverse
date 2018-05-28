@@ -11,7 +11,8 @@ describe('Highlight', function () {
     const keywords = ['Hello', 'World'];
     const component = (
       <Highlight keywords={keywords}>
-        Hello World, the following will not be highlighted
+        <span>Hello</span>
+        World, the following will not be highlighted
       </Highlight>
     );
     const wrapper = mount(component);
@@ -27,7 +28,8 @@ describe('Highlight', function () {
     const component = (
       // lowercase "world"
       <Highlight caseInsensitive keywords={keywords}>
-        Hello world, the following will not be highlighted
+        <span>Hello</span>
+        world, the following will not be highlighted
       </Highlight>
     );
     const wrapper = mount(component);
@@ -43,7 +45,8 @@ describe('Highlight', function () {
     const component = (
       // lowercase "world"
       <Highlight keywords={keywords}>
-        Hello world, the following will not be highlighted
+        <span>Hello</span>
+        world, the following will not be highlighted
       </Highlight>
     );
     const wrapper = mount(component);
@@ -57,7 +60,8 @@ describe('Highlight', function () {
     const keywords = ['Hello', 'World'];
     const component = (
       <Highlight disabled keywords={keywords}>
-        Hello World, the following will not be highlighted
+        <span>Hello</span>
+        World, the following will not be highlighted
       </Highlight>
     );
     const wrapper = mount(component);
