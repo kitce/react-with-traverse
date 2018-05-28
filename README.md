@@ -1,5 +1,5 @@
 # react-with-traverse
-A HoC (Higher-Order Component) that allows you to traverse into the React component tree to do something on each of the deepest strings, such as highlight keywords, censor sensitive content and etc.
+A HOC (Higher-Order Component) that allows you to traverse into the React component tree to do something on each of the deepest strings, such as highlight keywords, censor sensitive content and etc.
 
 ## Example
 [Live demo](https://runkit.com/kitce/react-with-traverse-demo)
@@ -14,7 +14,7 @@ npm install react-with-traverse
 yarn add react-with-traverse
 ```
 ## Usage
-This module exposes a single function `withTraverse`.
+This module exposes a single function.
 ```javascript
 // ES6+
 import withTraverse from 'react-with-traverse';
@@ -27,7 +27,7 @@ const withTraverse = require('react-with-traverse');
 
 `child` : Each of the deepest strings in the component tree (probably `<String>`, unless you do something like `<div>{<Number>}</div>`)
 
-`props`  : The props for the result component
+`props` : The props for the result component
 
 Use this function to transform `child` into anything you want by returning it.
 
