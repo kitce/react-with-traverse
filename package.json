@@ -1,6 +1,6 @@
 {
   "name": "react-with-traverse",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist",
   "license": "MIT",
   "description": "Traverse through React Elements and Transform Them to Anything",
@@ -9,7 +9,8 @@
   "scripts": {
     "build": "babel lib -d dist",
     "lint": "esw --color",
-    "test": "mocha --require babel-core/register --recursive tests"
+    "test": "mocha --require babel-core/register --recursive tests",
+    "prepublishOnly": "yarn build"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
