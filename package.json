@@ -1,6 +1,6 @@
 {
   "name": "react-with-traverse",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "main": "dist",
   "license": "MIT",
   "description": "Traverse through React Component Tree and Transform the Deepest Strings to Anything",
@@ -35,7 +35,9 @@
     "lodash": "^4.17.10",
     "mocha": "^5.2.0",
     "prop-types": "^15.6.1",
-    "react": "^16.4.0",
     "react-dom": "^16.4.0"
+  },
+  "dependencies": {
+    "react": "^16.4.0"
   }
 }
