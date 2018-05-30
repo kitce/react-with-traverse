@@ -3,7 +3,7 @@
   "version": "1.1.0",
   "main": "dist",
   "license": "MIT",
-  "description": "Traverse through React Component Tree and Transform the Deepest Strings to Anything",
+  "description": "Traverse in React component tree and transform the deepest strings to anything",
   "repository": "github:kitce/react-with-traverse",
   "author": "kitce",
   "scripts": {
