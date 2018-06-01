@@ -1,10 +1,5 @@
 # react-with-traverse
 A HOC (Higher-Order Component) that allows you to traverse into the React component tree to do something on each of the deepest strings, such as highlight keywords, censor sensitive content and etc.
-
-## Example
-[Live demo](https://runkit.com/kitce/react-with-traverse-demo)
-
-More detailed examples can be found in `tests/`
 ## Installation
 ```bash
 # npm
@@ -57,8 +52,8 @@ Result :
   <img src="smile_large.png" alt="Smiley face"/>
 </div>
 ```
-
 ## Test
+(Test cases are also examples)
 ```bash
 # npm
 npm install
